@@ -1,0 +1,16 @@
+.project_header {
+  background: url("../../assets/Project/ProjectHeaderSmall.webp"),
+    linear-gradient(to bottom, #1a2fe0, #0f1a71);
+  background-size: contain; /* Ensure the image covers the entire element */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .project_header {
+    background: url("../../assets/Project/ProjectHeader.webp"),
+      linear-gradient(to bottom, #1a2fe0, #0f1a71);
+    background-size: contain; /* Ensure the image covers the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+  }
+}

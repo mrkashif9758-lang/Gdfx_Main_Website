@@ -1,0 +1,23 @@
+.card {
+    perspective: 800px;
+  }
+  
+  .card__content {
+    transform-style: preserve-3d;
+    /* transition: transform 1s ease; */
+    transition: transform .7s ease-in-out;
+  }
+  
+  .card:hover .card__content {
+    transform: rotateY(180deg);
+  }
+  
+  .card__front,
+  .card__back {
+    backface-visibility: hidden;
+  }
+  
+  .card__back {
+    transform: rotateY(180deg);
+  }
+  

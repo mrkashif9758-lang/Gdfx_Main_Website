@@ -1,0 +1,7 @@
+.mobile-header {
+  background: linear-gradient(to bottom, #1a2fe0, #0f1a71),
+    url("../../assets/Mobile Application/mobile_header.webp");
+  background-size: cover;
+  background-position: center;
+}
+

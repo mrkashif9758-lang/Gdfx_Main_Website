@@ -1,0 +1,49 @@
+.ro360 {
+  @apply absolute;
+  animation: khushboo 20s linear infinite;
+  top: 24%;
+  left: 10%;
+}
+
+@keyframes khushboo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fb360 {
+  animation: fb 20s linear infinite;
+}
+
+@keyframes fb {
+  0% {
+    transform: rotate(0deg);
+  }
+  12% {
+    transform: rotate(-45deg);
+  }
+  25% {
+    transform: rotate(-90deg);
+  }
+  36% {
+    transform: rotate(-135deg);
+  }
+  50% {
+    transform: rotate(-170deg);
+  }
+  63% {
+    transform: rotate(-215deg);
+  }
+  75% {
+    transform: rotate(-260deg);
+  }
+  87% {
+    transform: rotate(-305deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
